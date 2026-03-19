@@ -1,0 +1,26 @@
+<div *ngIf="produto; else erro">
+
+  <div class="card shadow">
+    <div class="card-body">
+
+      <h2>{{ produto.nome }}</h2>
+      <p><strong>ID:</strong> {{ produto.id }}</p>
+
+      <hr>
+
+      <p>{{ produto.descricao }}</p>
+
+      <a routerLink="/produtos" class="btn btn-secondary mt-3">
+        Voltar
+      </a>
+
+    </div>
+  </div>
+
+</div>
+
+<ng-template #erro>
+  <div class="alert alert-danger">
+    Produto não encontrado.
+  </div>
+</ng-template>
