@@ -8,5 +8,15 @@ export const PRODUTOS = [
   { id: 7, nome: 'Uva', descricao: 'Possui antioxidantes importantes.' },
   { id: 8, nome: 'Pera', descricao: 'Ajuda no funcionamento intestinal.' },
   { id: 9, nome: 'Morango', descricao: 'Rico em vitamina C e antioxidantes.' },
-  { id: 10, nome: 'Kiwi', descricao: 'Auxilia na digestão e imunidade.' }
+  { id: 10, nome: 'Kiwi', descricao: 'Auxilia na digestão e imunidade.' },
+  { id: 11, nome: 'Mamão', descricao: 'Ajuda na digestão e é rico em fibras.' },
+  { id: 12, nome: 'Cenoura', descricao: 'Rica em vitamina A, importante para a visão.' },
+  { id: 13, nome: 'Tomate', descricao: 'Fonte de licopeno, ajuda na prevenção de doenças.' },
+  { id: 14, nome: 'Alface', descricao: 'Baixo em calorias e auxilia na digestão.' },
+  { id: 15, nome: 'Brócolis', descricao: 'Rico em vitaminas e fortalece o sistema imunológico.' },
+  { id: 16, nome: 'Espinafre', descricao: 'Fonte de ferro, importante para o sangue.' },
+  { id: 17, nome: 'Batata', descricao: 'Fonte de energia e rica em carboidratos.' },
+  { id: 18, nome: 'Batata-doce', descricao: 'Energia de absorção lenta e rica em fibras.' },
+  { id: 19, nome: 'Aveia', descricao: 'Ajuda a reduzir o colesterol e melhora a digestão.' },
+  { id: 20, nome: 'Arroz', descricao: 'Fonte básica de energia na alimentação diária.' }
 ];

@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { PRODUTOS } from '../../produtos-data';
 
 @Component({
   selector: 'app-detalhamento',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   templateUrl: './detalhamento.html'
 })
 export class Detalhamento {
