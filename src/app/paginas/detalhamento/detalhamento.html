@@ -1,26 +1,52 @@
 <div *ngIf="produto; else erro">
 
-  <div class="card shadow">
-    <div class="card-body">
+  <div class="row justify-content-center">
 
-      <h2>{{ produto.nome }}</h2>
-      <p><strong>ID:</strong> {{ produto.id }}</p>
+    <div class="col-md-6">
 
-      <hr>
+      <div class="card shadow border-0">
 
-      <p>{{ produto.descricao }}</p>
+        <div class="card-body">
 
-      <a routerLink="/produtos" class="btn btn-secondary mt-3">
-        Voltar
-      </a>
+          <h2 class="text-primary fw-bold">
+            {{ produto.nome }}
+          </h2>
+
+          <hr>
+
+          <p>
+            <strong>ID:</strong>
+            {{ produto.id }}
+          </p>
+
+          <p class="mt-3">
+            {{ produto.descricao }}
+          </p>
+
+          <a
+            routerLink="/produtos"
+            class="btn btn-secondary mt-3">
+
+            Voltar
+
+          </a>
+
+        </div>
+
+      </div>
 
     </div>
+
   </div>
 
 </div>
 
 <ng-template #erro>
-  <div class="alert alert-danger">
-    Produto não encontrado.
+
+  <div class="alert alert-danger text-center">
+
+    Produto não encontrado
+
   </div>
+
 </ng-template>
